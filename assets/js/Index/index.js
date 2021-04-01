@@ -32,9 +32,7 @@ $(document).ready(function ()
         margin: 0,
         nav: false,
         dots: false,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        rewind: true,
+        autoplay: false,
         loop: true
     });
 
@@ -42,16 +40,12 @@ $(document).ready(function ()
     {
         gallery.trigger('prev.owl.carousel');
         gallery.trigger('stop.owl.autoplay');
-
-        setTimeout(function() { gallery.trigger('play.owl.autoplay'); }, '60000');
     });
 
     $('.gallery > .next').on('click', function ()
     {
         gallery.trigger('next.owl.carousel');
         gallery.trigger('stop.owl.autoplay');
-
-        setTimeout(function() { gallery.trigger('play.owl.autoplay'); }, '60000');
     });
 
     $('form[name="contact"]').on('submit', function(e)

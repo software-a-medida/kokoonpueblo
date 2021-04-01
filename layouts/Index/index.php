@@ -9,7 +9,7 @@ $this->dependencies->add(['css', '{$path.plugins}fancybox/source/jquery.fancybox
 $this->dependencies->add(['js', '{$path.plugins}fancybox/source/jquery.fancybox.pack.js']);
 $this->dependencies->add(['css', '{$path.plugins}chosen-select/chosen.css']);
 $this->dependencies->add(['js', '{$path.plugins}chosen-select/chosen.jquery.js']);
-$this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.4']);
+$this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.5']);
 
 ?>
 

@@ -36,7 +36,7 @@ class Configuration
 	 *
      * @var string $lang_default
      */
-	public static $lang_default = 'es';
+	public static $lang_default = 'en';
 
 	/**
      * Reporte de errores.
