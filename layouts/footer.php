@@ -6,7 +6,7 @@
                     <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
                 </ul>
                 <ul>
-                    <li>Copyright © 2021 <strong>Living Tulum</strong> <i class="fas fa-heart"></i> {$lang.development_by} <a href="https://codemonkey.com.mx" target="_blank">Code Monkey</a></li>
+                    <li>Copyright © 2021 <strong>Living Tulum</strong></li>
                 </ul>
             </nav>
         </footer>
