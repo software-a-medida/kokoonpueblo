@@ -229,7 +229,7 @@ class Configuration
 	 *
      * @var string $smtp_host
      */
-	public static $smtp_host = 'mail.kokoonpueblo.com';
+	public static $smtp_host = 'mail.livingtulum.com';
 
 	/**
      * Usuario de la cuenta smtp.
@@ -239,7 +239,7 @@ class Configuration
 	 *
      * @var string $smtp_user
      */
-	public static $smtp_user = 'noreply@kokoonpueblo.com';
+	public static $smtp_user = 'noreply@livingtulum.com';
 
 	/**
      * Contraseña de la cuenta smtp.
@@ -248,7 +248,7 @@ class Configuration
 	 *
      * @var string $smtp_pass
      */
-	public static $smtp_pass = 'z587~bJi';
+	public static $smtp_pass = 'Pu3m&m37';
 
 	/**
      * Seguridad de la encriptacion para el envio de SMTP.
@@ -276,7 +276,7 @@ class Configuration
 	 *
      * @var integer $smtp_emailer
      */
-	public static $smtp_emailer = 'noreply@kokoonpueblo.com';
+	public static $smtp_emailer = 'noreply@livingtulum.com';
 
 	/**
      * Correo electrónico de contacto.
