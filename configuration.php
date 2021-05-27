@@ -229,7 +229,7 @@ class Configuration
 	 *
      * @var string $smtp_host
      */
-	public static $smtp_host = 'mail.codemonkey.com.mx';
+	public static $smtp_host = 'smtp.sendgrid.com';
 
 	/**
      * Usuario de la cuenta smtp.
@@ -239,7 +239,7 @@ class Configuration
 	 *
      * @var string $smtp_user
      */
-	public static $smtp_user = 'noreply@livingtulum.com';
+	public static $smtp_user = 'apikey';
 
 	/**
      * Contraseña de la cuenta smtp.
@@ -248,7 +248,7 @@ class Configuration
 	 *
      * @var string $smtp_pass
      */
-	public static $smtp_pass = 'Pu3m&m37';
+	public static $smtp_pass = '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';
 
 	/**
      * Seguridad de la encriptacion para el envio de SMTP.
