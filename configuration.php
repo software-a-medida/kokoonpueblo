@@ -220,7 +220,7 @@ class Configuration
 	 *
      * @var boolean $smtp_auth
      */
-	public static $smtp_auth = true;
+	public static $smtp_auth = false;
 
 	/**
      * Dominio o IP del servidor SMTP.
@@ -229,7 +229,7 @@ class Configuration
 	 *
      * @var string $smtp_host
      */
-	public static $smtp_host = 'smtp.sendgrid.com';
+	public static $smtp_host = '';
 
 	/**
      * Usuario de la cuenta smtp.
@@ -239,7 +239,7 @@ class Configuration
 	 *
      * @var string $smtp_user
      */
-	public static $smtp_user = 'apikey';
+	public static $smtp_user = '';
 
 	/**
      * Contraseña de la cuenta smtp.
@@ -248,7 +248,7 @@ class Configuration
 	 *
      * @var string $smtp_pass
      */
-	public static $smtp_pass = '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';
+	public static $smtp_pass = '';
 
 	/**
      * Seguridad de la encriptacion para el envio de SMTP.
